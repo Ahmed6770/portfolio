@@ -1,6 +1,7 @@
 import Navbar from "./components/layout/Navbar";
 import GlitchBackground from "./components/shared/GlitchBackground";
 import HeroSection from "./components/sections/hero/HeroSection";
+import ProjectsSection from "./components/sections/projects/ProjectsSection";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <main className="relative z-10">
         <HeroSection />
+        <ProjectsSection />
       </main>
     </div>
   );
