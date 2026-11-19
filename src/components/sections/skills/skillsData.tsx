@@ -15,14 +15,13 @@ import {
   SiReact,
   SiReactrouter,
   SiTailwindcss,
-  SiBootstrap,
   SiReactquery,
   SiAxios,
   SiGit,
   SiGithub,
   SiVite,
   SiVercel,
-  SiFigma,
+  SiVitest,
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import type { SkillsCategory } from "./Card";
@@ -39,7 +38,6 @@ export const skillsData: SkillsCategory[] = [
       { name: "React", icon: <SiReact className="text-cyan-400" /> },
       { name: "React Router", icon: <SiReactrouter className="text-red-500" /> },
       { name: "Tailwind", icon: <SiTailwindcss className="text-teal-400" /> },
-      { name: "Bootstrap", icon: <SiBootstrap className="text-purple-500" /> },
       { name: "TanStack Query", icon: <SiReactquery className="text-red-400" /> },
       { name: "Axios", icon: <SiAxios className="text-violet-400" /> },
     ],
@@ -53,7 +51,7 @@ export const skillsData: SkillsCategory[] = [
       { name: "GitHub", icon: <SiGithub className="text-white" /> },
       { name: "Vite", icon: <SiVite className="text-indigo-400" /> },
       { name: "Vercel", icon: <SiVercel className="text-white" /> },
-      { name: "Figma", icon: <SiFigma className="text-rose-500" /> },
+      { name: "Vitest", icon: <SiVitest className="text-yellow-400" /> },
     ],
   },
   {
